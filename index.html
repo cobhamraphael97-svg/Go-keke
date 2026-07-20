@@ -401,7 +401,7 @@
 
                     <p class="mt-8 text-lg leading-8 text-gray-700">
 
-                       
+
                         Whether you're booking a ride, sending a parcel or
                         scheduling transportation ahead of time,
                         Go-Keke connects passengers with trusted riders
@@ -772,48 +772,276 @@
     </section>
 
     <!-- ===========================
-        STATISTICS SECTION
+        BOOK A RIDE SECTION
 =========================== -->
 
+    <section id="book-ride" class="py-24 bg-gradient-to-br from-orange-50 via-white to-gray-100">
 
+        <div class="max-w-7xl mx-auto px-6">
 
+            <!-- Badge -->
 
+            <div
+                class="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-orange-300 bg-white shadow-sm">
 
+                <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
 
+                    <!-- Car Icon -->
 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="white" class="w-6 h-6">
 
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M8.25 18.75a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm7.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM3.75 12h16.5l-1.5-6h-13.5L3.75 12zm0 0v3h16.5v-3" />
 
+                    </svg>
 
+                </div>
 
+                <span class="text-orange-600 font-bold tracking-wide">
 
+                    BOOK A RIDE
 
+                </span>
 
-    <!-- <section class="px-50 py-3 ml-30 bg-blue-300-from">
+            </div>
 
-        
-    
-        <a href="#"
-            class="inline-flex items-center gap-3 mt-12 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-xl text-white font-semibold transition-all group">
-    
-            Learn More
-    
-            <span class="group-hover:translate-x-2 transition">
-    
-                →
-    
-            </span>
-    
-        </a>
-    </section> -->
+            <!-- Heading -->
 
+            <h2 class="mt-8 text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
 
+                Wherever You're Going,
 
+                <br>
 
+                Go There with
 
+                <span class="text-orange-500">
 
+                    Go-Keke.
 
+                </span>
 
+            </h2>
 
+            <!-- Paragraph -->
+
+            <p class="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
+
+                Book a nearby keke within seconds.
+                Choose your pickup and destination,
+                track your ride, and enjoy affordable
+                transportation with trusted riders.
+
+            </p>
+
+            <!-- Benefits -->
+
+            <div class="flex flex-wrap gap-10 mt-8">
+
+                <div class="flex items-center gap-3">
+
+                    <div class="w-7 h-7 rounded-full bg-green-500 flex items-center justify-center text-white">
+
+                        ✓
+
+                    </div>
+
+                    <span class="font-medium">
+
+                        Instant Booking
+
+                    </span>
+
+                </div>
+
+                <div class="flex items-center gap-3">
+
+                    <div class="w-7 h-7 rounded-full bg-green-500 flex items-center justify-center text-white">
+
+                        ✓
+
+                    </div>
+
+                    <span class="font-medium">
+
+                        Affordable Pricing
+
+                    </span>
+
+                </div>
+
+                <div class="flex items-center gap-3">
+
+                    <div class="w-7 h-7 rounded-full bg-green-500 flex items-center justify-center text-white">
+
+                        ✓
+
+                    </div>
+
+                    <span class="font-medium">
+
+                        Verified Drivers
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- Booking Form -->
+
+            <div class="mt-12 bg-white rounded-3xl shadow-xl p-8">
+
+                <form class="grid md:grid-cols-2 gap-6">
+
+                    <!-- Pickup -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Pickup Location
+
+                        </label>
+
+                        <input type="text" placeholder="Enter pickup location"
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                    </div>
+
+                    <!-- Destination -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Destination
+
+                        </label>
+
+                        <input type="text" placeholder="Enter destination"
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                    </div>
+
+                    <!-- Passengers -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Number of Passengers
+
+                        </label>
+
+                        <select
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                            <option>1 Passenger</option>
+                            <option>2 Passengers</option>
+                            <option>3 Passengers</option>
+                            <option>4 Passengers</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Ride Type -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Ride Type
+
+                        </label>
+
+                        <select
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                            <option>Standard</option>
+                            <option>Shared</option>
+                            <option>Express</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Date -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Schedule (Optional)
+
+                        </label>
+
+                        <input type="date"
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                    </div>
+
+                    <!-- Time -->
+
+                    <div>
+
+                        <label class="block font-semibold mb-3">
+
+                            Time (Optional)
+
+                        </label>
+
+                        <input type="time"
+                            class="w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-orange-500">
+
+                    </div>
+
+                    <!-- Button -->
+
+                    <div class="md:col-span-2">
+
+                        <button type="submit"
+                            class="w-full bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold rounded-xl py-5 transition duration-300">
+
+                            Find My Ride →
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+                <!-- ETA -->
+
+                <div class="mt-8 flex items-center justify-center gap-3 text-lg">
+
+                    <span class="text-green-600 text-2xl">
+
+                        ⏱
+
+                    </span>
+
+                    <span class="text-gray-600">
+
+                        Average arrival time:
+
+                    </span>
+
+                    <span class="text-orange-500 font-bold">
+
+                        3–5 mins
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
 </body>
